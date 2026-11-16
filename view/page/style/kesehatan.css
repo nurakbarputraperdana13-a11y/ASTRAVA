@@ -1,0 +1,26 @@
+.form-bmi{
+    min-width: 400px;
+}
+
+.hasil  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-hasil {
+    font-size: 6.5rem;
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.overlay {
+    display: none;
+    min-height: 100vh;
+    z-index: 99;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.038);
+}
+
+.aktif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content {
+    background-color: aliceblue;
+    color: red;
+}
