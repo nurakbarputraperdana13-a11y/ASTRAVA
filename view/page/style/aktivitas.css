@@ -1,0 +1,22 @@
+.overlay-aktivitas {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.overlay-aktivitas.aktif {
+  display: flex;
+
+}
+
+.overlay-content {
+  width: min(90vw, 32rem);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 8px;
+}
